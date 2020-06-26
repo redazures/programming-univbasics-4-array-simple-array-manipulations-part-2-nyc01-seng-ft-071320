@@ -16,7 +16,9 @@ end
 
 def using_delete(a,s)
   a.each do |item|
-    a[item].delete if a[item]=s
+    if item==("Steven")
+      a.delete(item)
+    end  #a[item].delete if a[item]=s
   end
 end
 
@@ -24,6 +26,10 @@ def using_delete_at
 end
 
 a=["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-a.each do {|item| a.delete(item) if item==("Steven")}
+a.each do |item|
+  if item==("Steven")
+    a.delete(item)
+  end  #a[item].delete if a[item]=s
+end
 
 puts a
