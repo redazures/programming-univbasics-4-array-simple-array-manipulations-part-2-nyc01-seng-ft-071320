@@ -27,7 +27,6 @@ a=["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 a.each do |item|
   if item==("Steven")
     a.delete(item)
-  else
   end  #a[item].delete if a[item]=s
 end
 
