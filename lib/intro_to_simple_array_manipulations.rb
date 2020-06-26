@@ -31,5 +31,5 @@ end
 #     a.delete(item)
 #   end  #a[item].delete if a[item]=s
 # end
-# 
+#
 # puts a
