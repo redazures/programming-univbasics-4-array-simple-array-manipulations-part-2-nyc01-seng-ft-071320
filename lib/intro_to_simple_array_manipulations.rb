@@ -22,3 +22,8 @@ end
 
 def using_delete_at
 end
+
+a=["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+a.each do |item|
+  a[item].delete if a[item]=s
+end
