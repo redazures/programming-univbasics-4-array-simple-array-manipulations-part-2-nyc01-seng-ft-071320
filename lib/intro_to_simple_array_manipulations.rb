@@ -28,3 +28,5 @@ a.each do |item|
   puts a.delete(item)
   #a[item].delete if a[item]=s
 end
+
+puts a
