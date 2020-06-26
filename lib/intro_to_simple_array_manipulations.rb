@@ -25,7 +25,7 @@ end
 
 a=["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 a.each do |item|
-  puts a.delete(item)
+  a.delete(item) if a.delete("steven")
   #a[item].delete if a[item]=s
 end
 
