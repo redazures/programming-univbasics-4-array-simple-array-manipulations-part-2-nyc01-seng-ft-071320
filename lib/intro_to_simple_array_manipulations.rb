@@ -22,7 +22,8 @@ def using_delete(a,s)
   end
 end
 
-def using_delete_at
+def using_delete_at(a,num)
+  a.delete_at(num)
 end
 
 # a=["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
