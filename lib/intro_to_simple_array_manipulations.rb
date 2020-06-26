@@ -16,7 +16,7 @@ end
 
 def using_delete(a,s)
   a.each do |item|
-    item.delete if item=s
+    a[item].delete if item=s
   end
 end
 
